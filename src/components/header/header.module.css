@@ -1,0 +1,96 @@
+header {
+    background-color: black;
+    color: white;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.menu__list {
+    display: flex;
+    gap: 18px;
+    margin-left: 175px;
+}
+
+.menu__item {
+    color: white;
+}
+
+.item__link {
+    color: white;
+}
+
+.menu__search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search__item__link {
+    color: white;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.users__corner {
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+}
+
+.loggin__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.loggin__item a{
+    color: white;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.account__item a{
+    color: white;
+}
+
+.shopping__cart a{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.shopping__cart a img{
+    width: 18px;
+    height: 20px;
+}
+
+.shopping__cart a div h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
+.shopping__cart a div h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
